@@ -1,0 +1,30 @@
+{
+  "version": "0.0.1",
+  "conflicting": {
+  },
+  "name": "intermediate",
+  "providing": {
+  },
+  "recipes": {
+    "intermediate::deafult": "Prints hello worldd output"
+  },
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "groupings": {
+  },
+  "suggestions": {
+  },
+  "recommendations": {
+  },
+  "platforms": {
+  },
+  "maintainer_email": "YOUR_EMAIL",
+  "dependencies": {
+  },
+  "replacing": {
+  },
+  "maintainer": "YOUR_COMPANY_NAME",
+  "attributes": {
+  },
+  "license": "All rights reserved",
+  "description": "Installs/Configures intermediate"
+}
