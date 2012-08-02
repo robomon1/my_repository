@@ -1,31 +1,44 @@
 {
-  "name": "about_me",
-  "conflicting": {
-  },
-  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
-  "version": "0.0.1",
-  "providing": {
-  },
-  "groupings": {
-  },
-  "replacing": {
-  },
-  "description": "Installs/Configures about_me",
-  "license": "All rights reserved",
   "dependencies": {
     "rightscale": ">= 0.0.0"
   },
+  "description": "Installs/Configures about_me",
+  "suggestions": {
+  },
+  "name": "about_me",
+  "license": "All rights reserved",
+  "maintainer": "YOUR_COMPANY_NAME",
   "recipes": {
     "about_me::default": "Prints my first name and several of my favorite things as output."
   },
-  "attributes": {
-  },
-  "suggestions": {
-  },
-  "recommendations": {
+  "replacing": {
   },
   "platforms": {
   },
+  "attributes": {
+    "about_me/favorite/hobby": {
+      "description": "My favorite hobby.",
+      "calculated": false,
+      "recipes": [
+        "about_me::default"
+      ],
+      "display_name": "Hobby",
+      "choice": [
+
+      ],
+      "required": "required",
+      "type": "string"
+    }
+  },
+  "version": "0.0.1",
+  "groupings": {
+  },
   "maintainer_email": "YOUR_EMAIL",
-  "maintainer": "YOUR_COMPANY_NAME"
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "providing": {
+  },
+  "conflicting": {
+  },
+  "recommendations": {
+  }
 }
