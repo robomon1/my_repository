@@ -1,0 +1,72 @@
+{
+  "attributes": {
+    "about_city/rain": {
+      "default": "no",
+      "type": "string",
+      "choice": [
+        "yes",
+        "no"
+      ],
+      "required": "recommended",
+      "display_name": "Raining",
+      "description": "Is it raining? Yes or No",
+      "calculated": false,
+      "recipes": [
+        "about_city::my_city"
+      ]
+    },
+    "about_city/city_name": {
+      "type": "string",
+      "choice": [
+
+      ],
+      "required": "required",
+      "display_name": "City Name",
+      "description": "The city where I currently live.",
+      "calculated": false,
+      "recipes": [
+        "about_city::my_city"
+      ]
+    },
+    "about_city/temperature": {
+      "type": "string",
+      "choice": [
+
+      ],
+      "required": "optional",
+      "display_name": "Temperature",
+      "description": "Current temperature in the city",
+      "calculated": false,
+      "recipes": [
+        "about_city::my_city"
+      ]
+    }
+  },
+  "version": "0.0.1",
+  "suggestions": {
+  },
+  "dependencies": {
+    "rightscale": ">= 0.0.0"
+  },
+  "maintainer": "YOUR_COMPANY_NAME",
+  "platforms": {
+  },
+  "maintainer_email": "YOUR_EMAIL",
+  "groupings": {
+  },
+  "recommendations": {
+  },
+  "description": "Installs/Configures about_city",
+  "replacing": {
+  },
+  "name": "about_city",
+  "recipes": {
+    "about_city::my_city": "Information about my city"
+  },
+  "providing": {
+  },
+  "conflicting": {
+  },
+  "license": "All rights reserved",
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n"
+}
